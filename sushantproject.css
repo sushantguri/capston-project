@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Lato:wght@400;700&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Kumbh+Sans:wght@100..900&family=Lato:wght@400;700&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+
+.navBar{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #1D221B;
+    margin:0 auto;
+}
+
+.navLogo{
+    font-family: "Syne";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    line-height: 42px;
+    font-size: 42px;
+    margin-left: 60px;
+    font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+.navSection{
+    display: flex;
+    font-family: "Cutive", serif;
+    font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+
+    
+    line-height: 42px;
+    font-size: 28px;    
+}
+
+.navSection div {
+    margin-right: 60px;
+    cursor: pointer;
+    
+} 
+.heading{
+    margin-bottom: 20px;
+}
+
+.hero{
+    color: #1D221B;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 80px;
+    margin-top: 200px;
+    margin-bottom: 160px;
+    font-size: 124px;
+
+}
+.hero img{
+    border-radius: 28px;
+    margin-top: 60px;
+    width: 90%;
+    height: 70%;
+}
+
+
+
+.para1{
+    
+    width: 672px;
+    
+    font-family: Roboto Serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+    margin-left: 70px;
+    margin-bottom: 150px;
+}
+
+
+    
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);    
+    width: 1344px;                        
+    height: 1349px;                       
+    padding: 52px 0px;                     
+    gap: 52px;                             
+    border-bottom: 1.5px solid black;      
+    opacity: 0;                            
+}
+    
+.box {
+                
+    border-radius: 8px;                    
+    width: 93%;                           
+    height: 100%;                         
+}
+    
+
+
+.location{
+    display: flex;
+    justify-content: space-evenly;  
+    margin-bottom: 60px;  
+    margin: 20px
+}
+
+.location img{
+
+    border-radius: 10px;
+    
+}
+
+.column1row1, .column1row2, .column1row3, .column2row1, .column2row2, .column2row3, .column3row1, .column3row2, .column3row3{
+    margin-bottom: 60px;
+}
+
+.cityName{
+    color: #1D221B;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"YOPQ" 300;
+} 
+
+.cityFamous{
+    color: #1D221B9E;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"YOPQ" 300;
+
+}
+
+.para4{
+    text-align: start;
+    margin-left: 800px;
+    margin-right: 60px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #212121;
+    margin-bottom: 120px;
+
+}
+.ending{
+    text-align: center;
+    /* width: 1260px; */
+    height: 52px;
+    /* max-width: 1260px; */
+    font-size: 48px;
+    margin-bottom: 50px;
+    margin-left: 110px;
+    font-weight: bold;
+
+
+}
+
+.cards{
+    display: flex;
+    margin: 0 60px;
+    
+}
+
+.largeCard{
+    display: flex;
+    justify-content: space-between;
+    width: 1420px;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.card1{
+    width: 220px;
+    height: 180px;
+    background-color: #52525217;
+    padding: 32px;
+    border-radius: 18px;
+    margin-right: 6px;
+}
+
+
+
+
+.card1 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.card2 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+
+
+#card3{
+    width: 50px;
+    overflow: hidden;
+    box-shadow: inset -80px 0 30px white;
+    padding-right: 30px;
+    
+
+
+}
+
+.cardHead{
+    display: flex; 
+
+}
+
+.cardName{
+    margin-left: 15px;
+}
+
+.cont1{
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.cont2{
+    color: #2121219E;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.mainCont{
+    margin-left: 18px;
+    margin-top: 30px;
+    text-align: end;
+    border-left: 1.5px solid #5C5C5C33;
+    font-size: 20px;
+    color: #212121;
+}
+
+.cardText{
+    color: #212121;
+    margin-left: 47px;
+    text-align: start;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.smallCard{
+    display: flex;
+    
+}
+
+.footer{
+   margin: 60px;
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+.but{
+    background-color: white;
+    width: 138px;
+    height: 52px;
+    padding: 14px 32px 14px 32px;
+    border-radius: 10px;
+    border: 1.5px 0px 0px 0px;
+    font-size: 20px;
+
+}
+.foot{
+    width: 276px;
+    height: 32px;
+    font-weight: 400px;
+    font-size: 28px;
+
+
+}
+
+@media (max-width:700px) {
+    .navBar{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10vmax;
+        margin-left: 11vmax;
+        text-align: center;
+    }
+    .hero{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 90px;
+        margin-left: 80px;
+    }
+    .hero img{
+        border-radius: 28px;
+        text-align: center;
+        width: 600px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .navBar .navLogo{
+        margin: 2.2vmax;
+    }
+    .heading{
+        text-align: center;
+    }
+    .location{
+        flex-direction: column;
+        margin-left: 15vmax;
+    }
+    .para4{
+        margin-left: 130px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .largeCard{
+        width: 100%;
+        margin: 0;
+        /* overflow: visible; */
+    }
+}
